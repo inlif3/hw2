@@ -43,7 +43,7 @@ alert(iphone);
  b3 = 2;
  alert(a3%b3);
 
- // Задание 7
+ // Задани 7
 
  let num = 1;
  num += 5;
