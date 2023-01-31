@@ -8,3 +8,5 @@ if (answerUser === password) {
 } else {
     alert('Пароль введен неправильно');
 }
+
+// Задание 2
