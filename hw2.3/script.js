@@ -17,3 +17,13 @@ if (c > 0 && c < 10) {
 } else {
     console.log('Не верно');
 }
+
+// Задание 3
+
+const d = prompt('Введите число');
+const e = prompt('Введите число');
+if (d > 100 && d < 100 || e > 100 && e < 100 ) {
+    console.log('Верно');
+} else {
+    console.log('Не верно');
+}
