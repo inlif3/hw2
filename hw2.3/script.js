@@ -10,3 +10,10 @@ if (answerUser === password) {
 }
 
 // Задание 2
+
+const c = prompt('Введите число');
+if (c > 0 && c < 10) {
+    console.log('Верно');
+} else {
+    console.log('Не верно');
+}
