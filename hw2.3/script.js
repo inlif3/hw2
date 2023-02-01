@@ -29,9 +29,33 @@ if (d > 100 || e > 100 ) {
 }
 
 // Задание 4
+
 let a = Number('2');
 let b = Number('3');
 alert(a + b);
 
 // Задание 5
 
+let MonthNumber = 12;
+
+switch (MonthNumber) {
+    case '1 || 2 || 12':
+    console.log('зима');
+    break;
+
+    case '3 || 4 || 5':
+    console.log('Весна');
+    break;
+
+    case '6 || 7 || 8':
+    console.log('Лето');
+    break;
+
+    case '9 || 10 || 11':
+    console.log('Осень');
+    break;
+
+    default: 
+    console.log('MonthNumber > 13');
+    break;
+}
