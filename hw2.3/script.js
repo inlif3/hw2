@@ -27,3 +27,11 @@ if (d > 100 || e > 100 ) {
 } else {
     console.log('Не верно');
 }
+
+// Задание 4
+let a = Number('2');
+let b = Number('3');
+alert(a + b);
+
+// Задание 5
+
