@@ -39,23 +39,31 @@ alert(a + b);
 let MonthNumber = 12;
 
 switch (MonthNumber) {
-    case '1 || 2 || 12':
-    console.log('зима');
+    case 1:
+    case 2:
+    case 12:
+        console.log('зима');
     break;
 
-    case '3 || 4 || 5':
-    console.log('Весна');
+    case 3:
+    case 4:
+    case 5:
+        console.log('Весна');
     break;
 
-    case '6 || 7 || 8':
-    console.log('Лето');
+    case 6:
+    case 7:
+    case 8:
+        console.log('Лето');
     break;
 
-    case '9 || 10 || 11':
-    console.log('Осень');
+    case 9:
+    case 10:
+    case 11:
+        console.log('Осень');
     break;
 
     default: 
-    console.log('MonthNumber > 13');
+        console.log(MonthNumber > 13);
     break;
 }
