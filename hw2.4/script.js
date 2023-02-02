@@ -24,3 +24,14 @@ while ( b <= 22 ) {
     console.log(b);
     b++;
 }
+
+// Задание 4
+
+let obj = {
+    Коля: '200',
+    Вася: '300',
+    Петя: '400'
+};
+for (worker in obj) {
+    console.log(`${worker} - зарплата ${obj[worker]} долларов`);
+}
