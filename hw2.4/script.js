@@ -46,3 +46,22 @@ for ( let n = 1000, num = 0; n > 50; num++ ) {
     console.log(n);
     console.log(num);
 }
+
+// Задание 6
+
+let firstFriday = 1;
+
+for (let friday = firstFriday; friday <= 31; friday += 7) {
+    if (friday == 1) {
+        console.log(`Cегодня пятница, ${friday}-е число. Необходимо подготовить отчет.`);
+    }
+    else if (friday == 2) {
+        console.log(`Cегодня пятница, ${friday}-е число. Необходимо подготовить отчет.`);
+    }
+    else if (friday == 3) {
+        console.log(`Cегодня пятница, ${friday}-е число. Необходимо подготовить отчет.`);
+    }
+    else {
+        console.log(`Cегодня пятница, ${friday}-е число. Необходимо подготовить отчет.`);
+    }
+}
