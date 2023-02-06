@@ -19,3 +19,18 @@ return number % 2 == 0 ? "Число нечетное" : "Число четно�
 
 console.log(even_odd(3));
 console.log(even_odd(4));
+
+// Задание 3.1
+
+const square = prompt('Введите число'); 
+
+// Задание 3.2
+
+function squareResoult (square) {
+    return square ** 2;
+}
+
+console.log(squareResoult(square));
+
+// Задание 4
+
