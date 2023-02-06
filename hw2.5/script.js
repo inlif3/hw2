@@ -34,3 +34,17 @@ console.log(squareResoult(square));
 
 // Задание 4
 
+let answer = prompt('Сколько Вам лет?');
+
+function printMessage () {
+    if (answer < 0) 
+            console.log('Вы ввели не правильньное значение');
+
+         else if (answer >= 0 && answer < 12) 
+                console.log('Привет, друг!');
+
+             else if (answer >= 13) 
+                        console.log('Добро пожаловать!');
+}
+                
+printMessage();
