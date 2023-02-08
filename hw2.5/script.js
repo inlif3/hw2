@@ -48,3 +48,31 @@ function printMessage () {
 }
                 
 printMessage();
+
+// Задание 5
+
+function num(c,e) {
+    if (isNaN(c,e)) { 
+        return 'Одно или оба значения не являются числом';
+    }
+    else { return (c * e);
+    }
+}
+
+console.log(num(8,2));
+console.log(num('Не число'));
+
+// Задание 6
+
+ const userNumber = (n) => {
+    if (isNaN(n)) {
+        return 'Переданный параметр не является числом';
+    }
+    else { return `${n} в кубе равняется ${n ** 2}`;
+    }
+}
+
+console.log( userNumber('пример'));
+for(let i = 0; i < 11; i++) {
+    console.log(userNumber(i));
+}
