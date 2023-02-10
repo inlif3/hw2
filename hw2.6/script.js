@@ -25,3 +25,14 @@ let arr = [1, 3, 5, 10, 20];
 arr = arr.join(' ');
 
 console.log(arr);
+
+// Задание 4
+
+let numbers = [];
+let numberArray =[];
+for (i = 0; i < 10; i++) {
+	numbers.push(Math.floor(Math.random() * 11));
+    if(numbers[i] % 2 == 0) numberArray.push(numbers[i]);
+}
+console.log(numbers);
+console.log(numberArray);
